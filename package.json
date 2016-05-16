@@ -1,0 +1,27 @@
+{
+  "name": "immymay",
+  "version": "1.0.0",
+  "description": "blogger site",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.3.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"lel\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/embrah/immymay.git"
+  },
+  "keywords": [
+    "blog"
+  ],
+  "author": "Emil Mladenov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/embrah/immymay/issues"
+  },
+  "homepage": "https://github.com/embrah/immymay#readme"
+}
