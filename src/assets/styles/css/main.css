@@ -3,7 +3,12 @@ html {
 
 body {
   font-size: 1.5rem;
-  font-family: "Sorts Mill Goudy"; }
+  font-family: "Sorts Mill Goudy";
+  color: #000; }
+
+a {
+  text-decoration: none;
+  color: #000; }
 
 h1 {
   font-size: 4rem; }
@@ -23,6 +28,230 @@ a, button {
 p {
   line-height: 1.6; }
 
+button {
+  background: none;
+  border: 1px solid #000;
+  box-shadow: 0 0 1px #212121;
+  cursor: pointer;
+  padding: 5px 12px;
+  text-transform: uppercase;
+  transition: .2s all; }
+  button:focus {
+    outline: none; }
+  button:hover {
+    box-shadow: 0 0 2px 1px #212121; }
+
+img {
+  max-width: 100%; }
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1200px; }
+
+.row {
+  overflow: hidden; }
+
+.col-1 {
+  float: left;
+  width: 8.33333333%; }
+
+.col-2 {
+  float: left;
+  width: 16.66666666%; }
+
+.col-3 {
+  float: left;
+  width: 25%; }
+
+.col-4 {
+  float: left;
+  width: 33.33333333%; }
+
+.col-5 {
+  float: left;
+  width: 41.66666666%; }
+
+.col-6 {
+  float: left;
+  width: 50%; }
+
+.col-7 {
+  float: left;
+  width: 58.33333333%; }
+
+.col-8 {
+  float: left;
+  width: 66.66666666%; }
+
+.col-9 {
+  float: left;
+  width: 75%; }
+
+.col-10 {
+  float: left;
+  width: 83.33333333%; }
+
+.col-11 {
+  float: left;
+  width: 91.66666666%; }
+
+.col-12 {
+  float: left;
+  width: 100%; }
+
+html {
+  font-size: 10px; }
+
 body {
-  max-width: 700px;
-  margin: 0 auto; }
+  font-size: 1.5rem;
+  font-family: "Sorts Mill Goudy";
+  color: #000; }
+
+a {
+  text-decoration: none;
+  color: #000; }
+
+h1 {
+  font-size: 4rem; }
+
+h2 {
+  font-size: 3rem; }
+
+h3 {
+  font-size: 2.2rem; }
+
+h1, h2, h3 {
+  font-family: "Didact Gothic"; }
+
+a, button {
+  font-family: "Times New Roman"; }
+
+p {
+  line-height: 1.6; }
+
+button {
+  background: none;
+  border: 1px solid #000;
+  box-shadow: 0 0 1px #212121;
+  cursor: pointer;
+  padding: 5px 12px;
+  text-transform: uppercase;
+  transition: .2s all; }
+  button:focus {
+    outline: none; }
+  button:hover {
+    box-shadow: 0 0 2px 1px #212121; }
+
+img {
+  max-width: 100%; }
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1200px; }
+
+.row {
+  overflow: hidden; }
+
+.col-1 {
+  float: left;
+  width: 8.33333333%; }
+
+.col-2 {
+  float: left;
+  width: 16.66666666%; }
+
+.col-3 {
+  float: left;
+  width: 25%; }
+
+.col-4 {
+  float: left;
+  width: 33.33333333%; }
+
+.col-5 {
+  float: left;
+  width: 41.66666666%; }
+
+.col-6 {
+  float: left;
+  width: 50%; }
+
+.col-7 {
+  float: left;
+  width: 58.33333333%; }
+
+.col-8 {
+  float: left;
+  width: 66.66666666%; }
+
+.col-9 {
+  float: left;
+  width: 75%; }
+
+.col-10 {
+  float: left;
+  width: 83.33333333%; }
+
+.col-11 {
+  float: left;
+  width: 91.66666666%; }
+
+.col-12 {
+  float: left;
+  width: 100%; }
+
+nav {
+  text-align: center;
+  background: rgba(250, 250, 250, 0.4);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 20px 0;
+  text-transform: uppercase;
+  z-index: 1;
+  font-weight: 700;
+  padding: 0;
+  margin: 0;
+  list-style: none; }
+  nav li {
+    display: inline-block;
+    padding: 0 5px; }
+
+header {
+  text-align: center;
+  padding: 200px 0;
+  background: url(../../images/coffee-cup.jpg) no-repeat center top/cover;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0; }
+
+.main-content {
+  padding-top: 50px;
+  position: absolute;
+  top: 55%;
+  left: 0;
+  right: 0;
+  z-index: 0;
+  text-align: center;
+  background: #fff; }
+  .main-content .promo-content {
+    display: inline-block;
+    width: 300px;
+    padding: 100px 10px;
+    margin: 5px 5px;
+    color: #FAFAFA;
+    transition: .5s all ease;
+    overflow: hidden; }
+    .main-content .promo-content:hover {
+      box-shadow: inset 0 0 0 1000px rgba(33, 33, 33, 0.8);
+      transform: scale(1.1); }
+  .main-content .promo-blog {
+    background: url(../../images/brunch1.jpg) no-repeat center top/cover; }
+  .main-content .promo-gallery {
+    background: url(../../images/toast.jpg) no-repeat center top/cover; }
+  .main-content .promo-shop {
+    background: url(../../images/chicks.jpg) no-repeat center top/cover; }
