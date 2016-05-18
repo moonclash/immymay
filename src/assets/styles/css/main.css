@@ -20,26 +20,28 @@ h3 {
   font-size: 2.2rem; }
 
 h1, h2, h3 {
-  font-family: "Didact Gothic"; }
+  font-family: "Roboto Slab"; }
 
 a, button {
-  font-family: "Times New Roman"; }
+  font-family: "Playfair Display"; }
 
 p {
   line-height: 1.6; }
 
 button {
-  background: none;
+  background: #000;
+  color: #FAFAFA;
   border: 1px solid #000;
   box-shadow: 0 0 1px #212121;
   cursor: pointer;
   padding: 5px 12px;
   text-transform: uppercase;
-  transition: .2s all; }
+  transition: .5s all; }
   button:focus {
     outline: none; }
   button:hover {
-    box-shadow: 0 0 2px 1px #212121; }
+    background: #FAFAFA;
+    color: #000; }
 
 img {
   max-width: 100%; }
@@ -122,26 +124,28 @@ h3 {
   font-size: 2.2rem; }
 
 h1, h2, h3 {
-  font-family: "Didact Gothic"; }
+  font-family: "Roboto Slab"; }
 
 a, button {
-  font-family: "Times New Roman"; }
+  font-family: "Playfair Display"; }
 
 p {
   line-height: 1.6; }
 
 button {
-  background: none;
+  background: #000;
+  color: #FAFAFA;
   border: 1px solid #000;
   box-shadow: 0 0 1px #212121;
   cursor: pointer;
   padding: 5px 12px;
   text-transform: uppercase;
-  transition: .2s all; }
+  transition: .5s all; }
   button:focus {
     outline: none; }
   button:hover {
-    box-shadow: 0 0 2px 1px #212121; }
+    background: #FAFAFA;
+    color: #000; }
 
 img {
   max-width: 100%; }
@@ -202,9 +206,17 @@ img {
   float: left;
   width: 100%; }
 
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none; }
+  ul li {
+    display: inline-block;
+    padding: 0 5px; }
+
 nav {
   text-align: center;
-  background: rgba(250, 250, 250, 0.4);
+  background: rgba(250, 250, 250, 0.8);
   position: fixed;
   top: 0;
   left: 0;
@@ -212,17 +224,11 @@ nav {
   padding: 20px 0;
   text-transform: uppercase;
   z-index: 1;
-  font-weight: 700;
-  padding: 0;
-  margin: 0;
-  list-style: none; }
-  nav li {
-    display: inline-block;
-    padding: 0 5px; }
+  font-weight: 700; }
 
 header {
   text-align: center;
-  padding: 200px 0;
+  padding: 300px 0;
   background: url(../../images/coffee-cup.jpg) no-repeat center top/cover;
   position: fixed;
   top: 0;
@@ -232,12 +238,16 @@ header {
 .main-content {
   padding-top: 50px;
   position: absolute;
-  top: 55%;
+  top: 80%;
   left: 0;
   right: 0;
   z-index: 0;
   text-align: center;
-  background: #fff; }
+  background: #FAFAFA; }
+  .main-content .intro .row {
+    display: flex;
+    justify-content: center;
+    padding: 90px; }
   .main-content .promo-content {
     display: inline-block;
     width: 300px;
@@ -245,7 +255,16 @@ header {
     margin: 5px 5px;
     color: #FAFAFA;
     transition: .5s all ease;
-    overflow: hidden; }
+    overflow: hidden;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .main-content .promo-content a {
+      color: #FAFAFA;
+      font-family: "Roboto Slab";
+      font-size: 2.7rem;
+      font-weight: 800; }
     .main-content .promo-content:hover {
       box-shadow: inset 0 0 0 1000px rgba(33, 33, 33, 0.8);
       transform: scale(1.1); }
@@ -255,3 +274,44 @@ header {
     background: url(../../images/toast.jpg) no-repeat center top/cover; }
   .main-content .promo-shop {
     background: url(../../images/chicks.jpg) no-repeat center top/cover; }
+
+.front-blog {
+  padding: 50px 0; }
+  .front-blog .container {
+    max-width: 100%; }
+  .front-blog img {
+    width: 40%; }
+  .front-blog h1 {
+    color: #FAFAFA;
+    font-size: 6rem;
+    letter-spacing: 2px; }
+    .front-blog h1:before {
+      content: "29 MARCH, 2016";
+      display: block;
+      font-size: 2.2rem; }
+  .front-blog p {
+    text-align: left;
+    max-width: 40%;
+    padding: 15px 0;
+    margin: 10px auto; }
+  .front-blog .col-12 {
+    background: url(../../images/cake-shop.jpg) no-repeat center 30%/cover fixed;
+    box-shadow: inset 0 0 0 1000px rgba(33, 33, 33, 0.6);
+    padding: 200px 0;
+    margin-bottom: 50px; }
+
+footer {
+  background: #000;
+  color: #FAFAFA;
+  padding: 50px; }
+  footer img {
+    padding: 50px 0; }
+  footer .tweet {
+    padding: 50px 0;
+    color: #FAFAFA; }
+  footer .emsign {
+    padding: 50px 0; }
+  footer li {
+    padding: 0 50px; }
+    footer li a {
+      color: #FFF; }

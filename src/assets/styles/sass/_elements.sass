@@ -3,14 +3,20 @@
 
 
 button
-	background: none
+	background: $black-500
+	color: $white-500
 	border: $border-small solid $black-500
 	box-shadow: 0 0 1px $black-400
 	cursor: pointer
 	padding: 5px 12px
 	text-transform: uppercase
-	transition: .2s all 
+	transition: .5s all 
 	&:focus
 		outline: none
 	&:hover
-		box-shadow: 0 0 2px 1px $black-400
+		background: $white-500
+		color: $black-500
+
+
+@mixin margin-center($top-bot)
+	margin: $top-bot auto
