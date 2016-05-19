@@ -1,0 +1,96 @@
+@import 'base-styles'
+*
+	box-sizing: border-box
+
+.dick
+	padding-top: 200px
+	text-align: center
+	background: pink
+	.col-12
+		padding: 200px 0
+		
+
+
+.main-content
+	margin-top: 50px
+
+
+
+.large-pic
+	margin: 50px auto
+	width: 90%
+	background-image: url(../../images/immy-park2.jpg)
+	background-repeat: no-repeat
+	background-size: cover
+	background-position: -200px center
+	//background-attachment: fixed - maybe?
+	border: 6px solid black
+	height: 1300px 
+
+.ground
+	background-image: url(../../images/immy-park2.jpg)
+
+.sun
+	background-image: url(../../images/immy-sun.jpg)
+	background-position: -250px center
+
+
+.blog-title
+	background: url(../../images/immy-lake.jpg) no-repeat center top /  cover
+	text-align: center
+	padding: 300px 0
+	h1
+		background: $black-300
+		color: $white-500
+		display: inline-block
+		padding: 10px 15px
+.blog-content
+	h2
+		text-align: center
+	img
+		width: 70%
+		display: block
+		@include margin-center(5px)
+	.social
+		padding: 50px 0
+		text-align: center
+		a
+			padding: 0 20px
+			font-size: 2rem
+.extra-blogs
+	text-align: center
+	padding-bottom: 20px
+	.adblog
+		padding: 100px 0
+		transition: .3s all ease-in
+		&:hover
+			box-shadow: inset 0 0 0 1000px transparentize($white-500,.2)
+		
+	.blog-1
+		background: url(../../images/donuts.jpg) no-repeat center top /  cover
+	.blog-2
+		background: url(../../images/jam.jpg) no-repeat center top /  cover
+	.blog-3
+		background: url(../../images/juice.jpg) no-repeat center top /  cover
+	.blog-4
+		background: url(../../images/selfie.jpg) no-repeat center top /  cover
+
+
+@media all and (max-width: 750px)
+	
+	.large-pic
+		height: 200px
+		background-position: top center
+	p
+		margin: 0 10px
+
+	.extra-blogs
+		.col-3
+			width: 100%
+	footer
+		.col-4
+			width: 100%
+			padding-bottom: 5px
+	.blog-content
+		img
+			width: 100%

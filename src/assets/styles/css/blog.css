@@ -225,6 +225,8 @@ nav {
   text-transform: uppercase;
   z-index: 1;
   font-weight: 700; }
+  nav .home {
+    float: left; }
 
 header {
   text-align: center;
@@ -233,18 +235,259 @@ header {
   position: fixed;
   top: 0;
   right: 0;
-  left: 0;
+  left: 0; }
+
+footer {
   background: #000;
   color: #FAFAFA;
-  padding: 50px; }
-  header img {
+  text-align: center;
+  padding-top: 10px; }
+  footer img {
     padding: 50px 0; }
-  header .tweet {
+  footer .tweet {
     padding: 50px 0;
     color: #FAFAFA; }
-  header .emsign {
+  footer .emsign {
     padding: 50px 0; }
-  header li {
+  footer li {
     padding: 0 50px; }
-    header li a {
+    footer li a {
       color: #FFF; }
+
+html {
+  font-size: 10px; }
+
+body {
+  font-size: 1.5rem;
+  font-family: "Sorts Mill Goudy";
+  color: #000; }
+
+a {
+  text-decoration: none;
+  color: #000; }
+
+h1 {
+  font-size: 4rem; }
+
+h2 {
+  font-size: 3rem; }
+
+h3 {
+  font-size: 2.2rem; }
+
+h1, h2, h3 {
+  font-family: "Roboto Slab"; }
+
+a, button {
+  font-family: "Playfair Display"; }
+
+p {
+  line-height: 1.6; }
+
+button {
+  background: #000;
+  color: #FAFAFA;
+  border: 1px solid #000;
+  box-shadow: 0 0 1px #212121;
+  cursor: pointer;
+  padding: 5px 12px;
+  text-transform: uppercase;
+  transition: .5s all; }
+  button:focus {
+    outline: none; }
+  button:hover {
+    background: #FAFAFA;
+    color: #000; }
+
+img {
+  max-width: 100%; }
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1200px; }
+
+.row {
+  overflow: hidden; }
+
+.col-1 {
+  float: left;
+  width: 8.33333333%; }
+
+.col-2 {
+  float: left;
+  width: 16.66666666%; }
+
+.col-3 {
+  float: left;
+  width: 25%; }
+
+.col-4 {
+  float: left;
+  width: 33.33333333%; }
+
+.col-5 {
+  float: left;
+  width: 41.66666666%; }
+
+.col-6 {
+  float: left;
+  width: 50%; }
+
+.col-7 {
+  float: left;
+  width: 58.33333333%; }
+
+.col-8 {
+  float: left;
+  width: 66.66666666%; }
+
+.col-9 {
+  float: left;
+  width: 75%; }
+
+.col-10 {
+  float: left;
+  width: 83.33333333%; }
+
+.col-11 {
+  float: left;
+  width: 91.66666666%; }
+
+.col-12 {
+  float: left;
+  width: 100%; }
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none; }
+  ul li {
+    display: inline-block;
+    padding: 0 5px; }
+
+nav {
+  text-align: center;
+  background: rgba(250, 250, 250, 0.8);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 20px 0;
+  text-transform: uppercase;
+  z-index: 1;
+  font-weight: 700; }
+  nav .home {
+    float: left; }
+
+header {
+  text-align: center;
+  padding: 300px 0;
+  background: url(../../images/coffee-cup.jpg) no-repeat center top/cover;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0; }
+
+footer {
+  background: #000;
+  color: #FAFAFA;
+  text-align: center;
+  padding-top: 10px; }
+  footer img {
+    padding: 50px 0; }
+  footer .tweet {
+    padding: 50px 0;
+    color: #FAFAFA; }
+  footer .emsign {
+    padding: 50px 0; }
+  footer li {
+    padding: 0 50px; }
+    footer li a {
+      color: #FFF; }
+
+* {
+  box-sizing: border-box; }
+
+.dick {
+  padding-top: 200px;
+  text-align: center;
+  background: pink; }
+  .dick .col-12 {
+    padding: 200px 0; }
+
+.main-content {
+  margin-top: 50px; }
+
+.large-pic {
+  margin: 50px auto;
+  width: 90%;
+  background-image: url(../../images/immy-park2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: -200px center;
+  border: 6px solid black;
+  height: 1300px; }
+
+.ground {
+  background-image: url(../../images/immy-park2.jpg); }
+
+.sun {
+  background-image: url(../../images/immy-sun.jpg);
+  background-position: -250px center; }
+
+.blog-title {
+  background: url(../../images/immy-lake.jpg) no-repeat center top/cover;
+  text-align: center;
+  padding: 300px 0; }
+  .blog-title h1 {
+    background: #302e2e;
+    color: #FAFAFA;
+    display: inline-block;
+    padding: 10px 15px; }
+
+.blog-content h2 {
+  text-align: center; }
+
+.blog-content img {
+  width: 70%;
+  display: block;
+  margin: 5px auto; }
+
+.blog-content .social {
+  padding: 50px 0;
+  text-align: center; }
+  .blog-content .social a {
+    padding: 0 20px;
+    font-size: 2rem; }
+
+.extra-blogs {
+  text-align: center;
+  padding-bottom: 20px; }
+  .extra-blogs .adblog {
+    padding: 100px 0;
+    transition: .3s all ease-in; }
+    .extra-blogs .adblog:hover {
+      box-shadow: inset 0 0 0 1000px rgba(250, 250, 250, 0.8); }
+  .extra-blogs .blog-1 {
+    background: url(../../images/donuts.jpg) no-repeat center top/cover; }
+  .extra-blogs .blog-2 {
+    background: url(../../images/jam.jpg) no-repeat center top/cover; }
+  .extra-blogs .blog-3 {
+    background: url(../../images/juice.jpg) no-repeat center top/cover; }
+  .extra-blogs .blog-4 {
+    background: url(../../images/selfie.jpg) no-repeat center top/cover; }
+
+@media all and (max-width: 750px) {
+  .large-pic {
+    height: 200px;
+    background-position: top center; }
+  p {
+    margin: 0 10px; }
+  .extra-blogs .col-3 {
+    width: 100%; }
+  footer .col-4 {
+    width: 100%;
+    padding-bottom: 5px; }
+  .blog-content img {
+    width: 100%; } }
