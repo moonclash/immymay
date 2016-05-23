@@ -227,15 +227,6 @@ nav {
   z-index: 1;
   font-weight: 700; }
 
-header {
-  text-align: center;
-  padding: 300px 0;
-  background: url(../../images/coffee-cup.jpg) no-repeat center top/cover;
-  position: fixed;
-  top: 0;
-  right: 0;
-  left: 0; }
-
 footer {
   background: #000;
   color: #FAFAFA;
@@ -302,4 +293,7 @@ footer {
       width: 31%; }
       .photo-collection .col-4 button {
         font-size: 1.2rem;
-        padding: 2px 5px; } }
+        padding: 2px 5px; }
+  footer .col-4 {
+    width: 100%;
+    padding-bottom: 5px; } }

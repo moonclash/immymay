@@ -1,0 +1,60 @@
+@import 'base-styles'
+
+
+
+header
+	background: url(../../images/bathing-suit.jpg) no-repeat top center / cover 
+	padding: 300px 0
+	.promo
+		display: inline-block
+		padding-left: 70%
+		padding-top: 50%
+		h1
+			background: $black-300
+			color: $white-500
+			padding: 5px
+
+.accesories
+	padding: 50px 0
+	.col-6
+		height: 300px
+		h3
+			text-align: right
+			text-transform: capitalize
+			padding: 20px 8px 0 0
+	.mug
+		background: url(../../images/mug.jpg) no-repeat top center / cover
+	.shirt
+		background: url(../../images/t-shirt.jpg) no-repeat top center / cover
+	.bag
+		background: url(../../images/gucci-bag.jpg) no-repeat center -50px
+	.shoes
+		background: url(../../images/shoes.jpg) no-repeat center -200px / cover	
+	.lipstick
+		background: url(../../images/lip-stick.jpg) no-repeat center top / cover
+	.make-up
+		background: url(../../images/make-up.jpg) no-repeat center top / cover
+
+
+@media (max-width: 760px)
+	header
+		.promo
+			padding: 0
+			text-align: center
+			h1
+				padding: 0
+				margin: 0
+	.accesories
+		padding: 0
+		.col-6
+			width: 100%
+			h3
+				text-align: center
+				background: $black-300
+				color: $white-500
+				padding: 0
+				margin: 0
+	footer
+		.col-4
+			width: 100%
+			padding-bottom: 5px
