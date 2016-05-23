@@ -14,7 +14,7 @@ gulp.task('sass', function(){
 
 gulp.task('watch',['browserSync','sass'],function(){
 	gulp.watch('src/assets/styles/sass/**/*.sass',['sass']);
-	gulp.watch('src/blog.html',browserSync.reload);
+	gulp.watch('src/gallery.html',browserSync.reload);
 	gulp.watch('src/assets/scripts/**/*.js',browserSync.reload);
 
 });

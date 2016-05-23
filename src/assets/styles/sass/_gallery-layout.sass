@@ -1,0 +1,27 @@
+.main-content
+	margin-top: 50px
+
+
+.photo-collection 
+	text-align: center
+	.col-4
+		width: 32%
+		background: url(../../images/chicks.jpg) top center / cover no-repeat
+		margin: 0 0 5px 5px
+		padding: 120px 0
+		text-align: center
+		&:nth-of-type(odd)
+			background: url(../../images/brunch2.jpg) top center / cover no-repeat
+		&:hover
+			box-shadow: inset 0 0 0 1000px transparentize($white-500,.5)
+		&:hover button
+			opacity: 1
+		button
+			opacity: 0
+
+.album-collection
+	text-align: center
+	.album-promo
+	 background: url(../../images/brunch2.jpg) top center / cover no-repeat
+	 padding: 120px 0
+	 margin-bottom: 10px
