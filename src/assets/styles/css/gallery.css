@@ -252,8 +252,11 @@ footer {
     footer li a {
       color: #FFF; }
 
-.main-content {
-  margin-top: 50px; }
+.main-content .gallery-header {
+  text-align: center;
+  padding: 250px 0;
+  background: url(../../images/couple.jpg) center -200px/cover no-repeat;
+  color: #FAFAFA; }
 
 .photo-collection {
   text-align: center; }
@@ -278,3 +281,27 @@ footer {
     background: url(../../images/brunch2.jpg) top center/cover no-repeat;
     padding: 120px 0;
     margin-bottom: 10px; }
+
+.photo-collection h1, .album-collection h1 {
+  font-size: 2.8rem;
+  text-transform: uppercase; }
+
+@media (max-width: 653px) {
+  .gallery-header {
+    margin-bottom: -70%; }
+  .album-collection {
+    display: none; }
+  .photo-collection {
+    width: 100%; }
+    .photo-collection h1 {
+      visibility: hidden;
+      margin: 0; }
+    .photo-collection .col-4 {
+      padding: 60px 0;
+      width: 31%; }
+      .photo-collection .col-4 button {
+        font-size: 1.2rem;
+        padding: 2px 5px; }
+  footer .col-4 {
+    width: 100%;
+    padding-bottom: 5px; } }
