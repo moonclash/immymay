@@ -209,7 +209,8 @@ img {
 ul {
   padding: 0;
   margin: 0;
-  list-style: none; }
+  list-style: none;
+  background: transparent; }
   ul li {
     display: inline-block;
     padding: 0 5px; }
@@ -359,7 +360,8 @@ img {
 ul {
   padding: 0;
   margin: 0;
-  list-style: none; }
+  list-style: none;
+  background: transparent; }
   ul li {
     display: inline-block;
     padding: 0 5px; }
